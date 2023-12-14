@@ -1,0 +1,94 @@
+.table {
+  border-radius: 10px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.TableForm {
+  margin: auto;
+  padding: 0 20%;
+  h2 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: 700;
+    padding: 20px;
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  th {
+    text-align: center;
+  }
+}
+
+.Button-create {
+  button {
+    font-size: 16px;
+  }
+}
+
+.btn-success {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create_form,
+.update_form,
+.delete_form {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(grey, 0.7);
+  width: 100%;
+  height: 100%;
+}
+.btn_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  h2 {
+    font-size: 18px;
+  }
+}
+.create_box,
+.update_box,
+.delete_box {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 150%;
+  background-color: white;
+  border-radius: 10px;
+
+  label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+
+  p {
+    text-align: center;
+  }
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+    height: 150px;
+  }
+  .btn-success {
+    display: block;
+    width: 100%;
+  }
+  .destext {
+    padding: 20px 5px;
+  }
+}
